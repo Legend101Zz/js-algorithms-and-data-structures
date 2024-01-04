@@ -30,3 +30,24 @@ console.log(Object.hasOwnProperty("nam"));
 // access - O(1)
 
 let names = ["ram", "shyam", "ghyansam"];
+
+//push -O(1)
+console.log(names.push("Rahul"));
+
+//pop -O(1)
+console.log(names.pop());
+
+// shift - O(N)
+console.log(names.shift());
+
+// unshift -O(N)
+console.log(names.unshift("noyal"));
+
+// concat - O(N)
+console.log(names.concat(["yoo", "noo"]));
+
+// slice - O(N)
+console.log(names.slice(1, 4));
+
+// splice - O(N)
+console.log(names.splice(4, 1, "mrigesh"));
