@@ -51,3 +51,6 @@ console.log(names.slice(1, 4));
 
 // splice - O(N)
 console.log(names.splice(4, 1, "mrigesh"));
+
+// sort - O(N*logN)
+// filter , reduce , forEach , map - O(N)
