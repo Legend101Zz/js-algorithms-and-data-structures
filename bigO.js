@@ -11,11 +11,11 @@ function addUpto2(n) {
 }
 
 let t1 = performance.now();
-addUpto(1000000);
+addUpto(10000000);
 let t2 = performance.now();
 console.log(`Time Elapsed: ${(t2 - t1) / 1000} seconds`);
 
 let t3 = performance.now();
-addUpto2(1000000);
+addUpto2(10000000);
 let t4 = performance.now();
 console.log(`Time Elapsed: ${(t4 - t3) / 1000} seconds`);

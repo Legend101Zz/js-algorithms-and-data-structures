@@ -1,0 +1,5 @@
+// BIG-O OF OBJECTS ( KEY-VALUE PAIRS) uses hashmaps
+// INSERTION - O(1)
+// REMOVAL - O(1)
+// SEARCHING - O(N)
+// ACCESS - O(1)
